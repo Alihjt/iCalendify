@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>CFBundleIdentifier</key><string>org.icalendify.mac</string>
+    <key>CFBundleName</key><string>iCalendify</string>
+    <key>CFBundleDisplayName</key><string>iCalendify</string>
+    <key>CFBundleExecutable</key><string>iCalendify</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
+    <key>CFBundleVersion</key><string>3</string>
+    <key>LSMinimumSystemVersion</key><string>26.0</string>
+    <key>LSUIElement</key><true/>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSCalendarsFullAccessUsageDescription</key><string>Choose a writable iCloud calendar and save events you review. macOS requires Full Access to list calendars. iCalendify does not fetch your existing events.</string>
+    <key>NSServices</key><array><dict>
+        <key>NSMenuItem</key><dict><key>default</key><string>Add to Calendar with iCalendify</string></dict>
+        <key>NSMessage</key><string>addToCalendar</string>
+        <key>NSPortName</key><string>iCalendify</string>
+        <key>NSSendTypes</key><array><string>public.utf8-plain-text</string><string>NSStringPboardType</string></array>
+        <key>NSRequiredContext</key><dict/>
+        <key>NSReturnTypes</key><array/>
+    </dict></array>
+</dict></plist>

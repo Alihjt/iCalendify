@@ -1,0 +1,11 @@
+/build/
+/dist/
+.DS_Store
+*.rtf
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+xcuserdata/
